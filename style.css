@@ -150,6 +150,13 @@ img {
   color: var(--clr-main-white);
 }
 
+@media (max-width: 499px) {
+  .col-lg-11 .link a.link-custom {
+    display: block;
+    margin-top: 10px;
+  }
+}
+
 @media (min-width: 992px) {
   .navbar {
     min-height: 100vh;
